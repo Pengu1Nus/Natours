@@ -1,0 +1,26 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Natours landing page",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss": "sass sass/main.scss css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pengu1Nus/Natours.git"
+  },
+  "keywords": [
+    "Natours",
+    "lending"
+  ],
+  "author": "pengu1nus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pengu1Nus/Natours/issues"
+  },
+  "homepage": "https://github.com/Pengu1Nus/Natours#readme",
+  "devDependencies": {
+    "sass": "^1.60.0"
+  }
+}
