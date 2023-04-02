@@ -23,8 +23,8 @@
     }
 
     @include respond(phone) {
-      top: 3rem;
-      right: 3rem;
+      top: 1rem;
+      right: 1rem;
     }
   }
 
@@ -45,8 +45,8 @@
     }
 
     @include respond(phone) {
-      top: 3.5rem;
-      right: 3.5rem;
+      top: 1.5rem;
+      right: 1.5rem;
     }
   }
 
@@ -54,7 +54,7 @@
     height: 100vh;
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     z-index: 150;
     opacity: 0;
     width: 0;
@@ -62,10 +62,7 @@
   }
 
   &__list {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    @include absCenter;
     list-style: none;
     text-align: center;
     width: 100%;
@@ -90,8 +87,8 @@
       transition: all .4s;
       
       span {
-        margin-right: 1.5rem;
         display: inline-block;
+        margin-right: 1.5rem;
       }
     }
 
@@ -145,15 +142,15 @@
     top: 1rem;
   }
 
-  &__chechbox:checked + &__button &__icon {
+  &__checkbox:checked + &__button &__icon {
     background-color: transparent;
   }
 
-  &__chechbox:checked + &__button &__icon::before {
+  &__checkbox:checked + &__button &__icon::before {
     top: 0;
     transform: rotate(135deg);
   }
-  &__chechbox:checked + &__button &__icon::after {
+  &__checkbox:checked + &__button &__icon::after {
     top: 0;
     transform: rotate(-135deg);
   }

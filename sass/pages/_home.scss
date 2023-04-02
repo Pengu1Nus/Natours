@@ -96,8 +96,16 @@
     }
 
     @include respond(tab-port) {
-      padding: 5rem;
+      padding: 4rem;
       width: 100%;
+    }
+
+    @include respond(phone) {
+      padding: 2rem;
+    }
+    @media (max-width: 360px) {
+      padding: 1rem;
+      text-align: center;
     }
   }
 }
