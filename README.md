@@ -25,7 +25,7 @@ Natours is a website for a travel agency that offers nature tours to various des
 ## 🛠️ Technologies Used
 
 - HTML5 🌐
-- CSS5 🎨
+- CSS3 🎨
 - SCSS 👓
 
 ## 🚀 Getting Started
