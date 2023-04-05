@@ -21,6 +21,7 @@ Natours is a website for a travel agency that offers nature tours to various des
 - Interactive tour descriptions with images and maps 📷🗺️
 - Popups and buttons made with pure SCSS, without using JavaScript 🎨
 - Responsive design for optimal viewing on all devices 📱💻🖥️
+- BEM methodology: Block, Element, Modifier (BEM) methodology is used for organizing and naming CSS classes, making the code more readable and maintainable. 🅱️
 
 ## 🛠️ Technologies Used
 
