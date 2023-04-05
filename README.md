@@ -8,8 +8,6 @@
   <img src="https://img.shields.io/badge/made%20with-html-green.svg" alt="Made with HTML">
   <img src="https://img.shields.io/badge/made%20with-css-blue.svg" alt="Made with CSS">
   <img src="https://img.shields.io/badge/made%20with-scss-pink.svg" alt="Made with SCSS">
-  <br>
-  <img src="https://img.shields.io/github/license/pengu1nus/Natours" alt="License">
 </div>
 
 # Welcome to Natours
@@ -22,6 +20,7 @@ Natours is a website for a travel agency that offers nature tours to various des
 - Popups and buttons made with pure SCSS, without using JavaScript 🎨
 - Responsive design for optimal viewing on all devices 📱💻🖥️
 - BEM methodology: Block, Element, Modifier (BEM) methodology is used for organizing and naming CSS classes, making the code more readable and maintainable. 🅱️
+- Used 7-1 SASS architecture - a pattern for organizing SASS files into 7 different directories and 1 main file, allowing for better modularity and maintainability of the code 📑
 
 ## 🛠️ Technologies Used
 
